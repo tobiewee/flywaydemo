@@ -1,0 +1,8 @@
+db:
+  script:
+    location: db/migration
+
+spring:
+  datasource:
+    username: root
+    url: jdbc:mariadb://localhost:3306/test
